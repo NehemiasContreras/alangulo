@@ -137,9 +137,22 @@ body{
 
     background-color: #328E6E;
 }
-.cards-wrapped{
-    display: flex;
-}
+
 .col{
   background-color: rgb(225, 238, 188);
+}
+
+.cards-wrapped {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+
+@media (max-width: 768px) {
+  #map iframe {
+    width: 100% !important;
+    height: 300px !important;
+  }
 }
