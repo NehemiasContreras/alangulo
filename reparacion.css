@@ -1,0 +1,41 @@
+#construccion{
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 60px;
+    
+}
+h2{
+    color: white;
+    text-align: center;
+    font-family: "Cal Sans", sans-serif;
+}
+p{
+    color: white;
+    text-align: center;
+    font-family: "Cal Sans", sans-serif;
+}
+#info{
+     height: 70px;
+    width: 70px;
+}
+
+#ellogito{
+    height: 100px;
+    width: 100px;
+}
+#soporte{
+    height: 70px;
+    width: 70px;
+}
+#carrito{
+    height: 70px;
+    width: 70px;
+}
+.container-fluid{
+background-color: #328E6E;
+
+}
+body{
+ background-color: #67AE6E;
+}
